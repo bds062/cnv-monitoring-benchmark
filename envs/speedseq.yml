@@ -1,0 +1,10 @@
+# workflow/zea/speedseq.sh: SpeedSeq (commit 4e60002, v0.1.2) `speedseq align`, which runs BWA-MEM 0.7.10,
+# SAMBLASTER and sambamba from SpeedSeq's own bin/ (built by data/download.sh tools; put that bin/ on PATH in
+# this env). samtools takes the published moths' reads back out of their Bowtie2 BAMs (the paper's run used
+# samtools 1.22.1). The breakpoint callers themselves run elsewhere: Delly2 in envs/delly2.yml, smoove (LUMPY
+# + SVTyper) from its container.
+name: speedseq
+channels: [conda-forge, bioconda]
+dependencies:
+  - samtools=1.22.1
+  - htslib=1.22.1

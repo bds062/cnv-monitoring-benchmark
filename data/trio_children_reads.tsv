@@ -1,0 +1,7 @@
+# Sequenced read pairs of the four trio children (this study; not yet in the SRA): Trimmomatic 'Input Read Pairs'
+# of each child's raw reads. Used for the 'This study' row of Table 1.
+sample	trio	read_pairs	read_length
+BV20_AA27_P6BZM_C32	Trio1	34004195	151
+BV20_EH138_P1BZF_E51	Trio2	35649334	151
+BV20_EI139_P5BZM_A12	Trio3	47478313	151
+BV_CV98_P7BZF_A12	Trio4	29227643	151

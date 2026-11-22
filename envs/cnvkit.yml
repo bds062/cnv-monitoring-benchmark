@@ -1,0 +1,11 @@
+# CNVkit 0.9.13 (pip, as in the paper); segmentation calls R's DNAcopy
+name: cnvkit
+channels: [conda-forge, bioconda]
+dependencies:
+  - python=3.11
+  - r-base=4.3
+  - bioconductor-dnacopy
+  - samtools=1.22.1
+  - pip
+  - pip:
+      - cnvkit==0.9.13

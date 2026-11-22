@@ -1,0 +1,15 @@
+# Downloads, trimming, Bowtie2 alignment, CRAM->BAM, repeat BEDs.
+# Trimmomatic 0.38 and 0.39 run from their release jars (data/download.sh tools).
+# SpeedSeq (speedseq align: BWA-MEM, SAMBLASTER, sambamba) is built from source: envs/speedseq.yml, data/download.sh tools.
+name: preprocess
+channels: [conda-forge, bioconda]
+dependencies:
+  - sra-tools=3.0.0
+  - ncbi-datasets-cli
+  - openjdk=17
+  - bowtie2=2.5.4
+  - samtools=1.21
+  - bwa=0.7.19
+  - bedtools=2.31.1
+  - pigz
+  - unzip

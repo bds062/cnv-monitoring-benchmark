@@ -1,0 +1,523 @@
+# One row per completed job (or per unit of a sequential worker). wall_h: wall-clock hours; cores: cores
+# allocated; rss_gb: peak resident memory (Slurm MaxRSS counts file cache) where recorded per job.
+# Collected from the GNU time logs, Slurm accounting and worker timestamps of the paper's runs; summarised by analysis/runtime.py.
+species	caller	step	unit	record	wall_h	cores	rss_gb	source	note
+H. zea	Delly2	delly call (discovery), trio moths	per moth	1	0.5590	4	0.582	time	4 cores allocated
+H. zea	Delly2	delly call (discovery), trio moths	per moth	2	0.3251	4	0.381	time	4 cores allocated
+H. zea	Delly2	delly call (discovery), trio moths	per moth	3	0.4293	4	0.454	time	4 cores allocated
+H. zea	Delly2	delly call (discovery), trio moths	per moth	4	0.4925	4	0.554	time	4 cores allocated
+H. zea	Delly2	delly call (discovery), trio moths	per moth	5	0.4061	4	0.562	time	4 cores allocated
+H. zea	Delly2	delly call (discovery), trio moths	per moth	6	0.4750	4	0.476	time	4 cores allocated
+H. zea	Delly2	delly call (discovery), trio moths	per moth	7	0.4931	4	0.478	time	4 cores allocated
+H. zea	Delly2	delly call (discovery), trio moths	per moth	8	0.3634	4	0.420	time	4 cores allocated
+H. zea	Delly2	delly call (discovery), trio moths	per moth	9	0.1818	4	0.618	time	4 cores allocated
+H. zea	Delly2	delly call (discovery), trio moths	per moth	10	0.5062	4	0.519	time	4 cores allocated
+H. zea	Delly2	delly call (discovery), trio moths	per moth	11	0.4605	4	0.587	time	4 cores allocated
+H. zea	Delly2	delly call (discovery), trio moths	per moth	12	0.4204	4	0.402	time	4 cores allocated
+H. zea	Delly2	delly cnv (read depth, copy number)	per moth	1	0.0335	16	0.202	time	
+H. zea	Delly2	delly cnv (read depth, copy number)	per moth	2	0.0264	16	0.209	time	
+H. zea	Delly2	delly cnv (read depth, copy number)	per moth	3	0.0425	16	0.201	time	
+H. zea	Delly2	delly cnv (read depth, copy number)	per moth	4	0.0517	16	0.211	time	
+H. zea	Delly2	delly cnv (read depth, copy number)	per moth	5	0.0506	16	0.256	time	
+H. zea	Delly2	delly cnv (read depth, copy number)	per moth	6	0.0277	16	0.205	time	
+H. zea	Delly2	delly cnv (read depth, copy number)	per moth	7	0.0459	16	0.237	time	
+H. zea	Delly2	delly cnv (read depth, copy number)	per moth	8	0.0271	16	0.202	time	
+H. zea	Delly2	delly cnv (read depth, copy number)	per moth	9	0.0573	16	0.219	time	
+H. zea	Delly2	delly cnv (read depth, copy number)	per moth	10	0.0287	16	0.225	time	
+H. zea	Delly2	delly cnv (read depth, copy number)	per moth	11	0.0376	16	0.215	time	
+H. zea	Delly2	delly cnv (read depth, copy number)	per moth	12	0.0246	16	0.235	time	
+Human	Delly2	delly call (discovery)	per person	1	5.2775	4	1.341	time	
+Human	Delly2	delly call (discovery)	per person	2	5.8425	4	1.573	time	
+Human	Delly2	delly call (discovery)	per person	3	0.8438	4	1.329	time	
+Human	Delly2	delly call (discovery)	per person	4	6.5036	4	1.348	time	
+Human	Delly2	delly call (discovery)	per person	5	6.3881	4	1.354	time	
+Human	Delly2	delly call (discovery)	per person	6	5.4844	4	1.322	time	
+Human	Delly2	delly call (discovery)	per person	7	6.3689	4	1.346	time	
+Human	Delly2	delly call (discovery)	per person	8	7.1722	4	1.341	time	
+Human	Delly2	delly call (discovery)	per person	9	3.5375	4	1.326	time	
+Human	Delly2	delly call (discovery)	per person	10	1.4719	4	1.347	time	
+Human	Delly2	delly call (discovery)	per person	11	6.4967	4	1.756	time	
+Human	Delly2	delly call (discovery)	per person	12	3.4983	4	1.324	time	
+H. zea	CNVcaller	read-depth processing	per moth	1	0.0643	32	0.067	time	
+H. zea	CNVcaller	read-depth processing	per moth	2	0.0510	32	0.067	time	
+H. zea	CNVcaller	read-depth processing	per moth	3	0.0553	32	0.067	time	
+H. zea	CNVcaller	read-depth processing	per moth	4	0.0658	32	0.067	time	
+H. zea	CNVcaller	read-depth processing	per moth	5	0.0752	32	0.067	time	
+H. zea	CNVcaller	read-depth processing	per moth	6	0.0086	32	0.067	time	
+H. zea	CNVcaller	read-depth processing	per moth	7	0.0583	32	0.066	time	
+H. zea	CNVcaller	read-depth processing	per moth	8	0.0553	32	0.067	time	
+H. zea	CNVcaller	read-depth processing	per moth	9	0.0502	32	0.066	time	
+H. zea	CNVcaller	read-depth processing	per moth	10	0.0576	32	0.062	time	
+H. zea	CNVcaller	read-depth processing	per moth	11	0.0782	32	0.067	time	
+H. zea	CNVcaller	read-depth processing	per moth	12	0.0327	32	0.067	time	
+H. zea	CNVcaller	CNV-region discovery (crosstrio-9 + moth)	per moth	1	0.0198	2	0.597	time	
+H. zea	CNVcaller	CNV-region discovery (crosstrio-9 + moth)	per moth	2	0.0196	2	0.596	time	
+H. zea	CNVcaller	CNV-region discovery (crosstrio-9 + moth)	per moth	3	0.0187	2	0.596	time	
+H. zea	CNVcaller	CNV-region discovery (crosstrio-9 + moth)	per moth	4	0.0170	2	0.572	time	
+H. zea	CNVcaller	CNV-region discovery (crosstrio-9 + moth)	per moth	5	0.0164	2	0.566	time	
+H. zea	CNVcaller	CNV-region discovery (crosstrio-9 + moth)	per moth	6	0.0189	2	0.598	time	
+H. zea	CNVcaller	CNV-region discovery (crosstrio-9 + moth)	per moth	7	0.0190	2	0.598	time	
+H. zea	CNVcaller	CNV-region discovery (crosstrio-9 + moth)	per moth	8	0.0177	2	0.582	time	
+H. zea	CNVcaller	CNV-region discovery (crosstrio-9 + moth)	per moth	9	0.0177	2	0.585	time	
+H. zea	CNVcaller	CNV-region discovery (crosstrio-9 + moth)	per moth	10	0.0182	2	0.588	time	
+H. zea	CNVcaller	CNV-region discovery (crosstrio-9 + moth)	per moth	11	0.0173	2	0.581	time	
+H. zea	CNVcaller	CNV-region discovery (crosstrio-9 + moth)	per moth	12	0.0189	2	0.599	time	
+H. zea	CNVcaller	genotyping (crosstrio-9 + moth)	per moth	1	0.2652	4	0.193	time	
+H. zea	CNVcaller	genotyping (crosstrio-9 + moth)	per moth	2	0.2634	4	0.191	time	
+H. zea	CNVcaller	genotyping (crosstrio-9 + moth)	per moth	3	0.2607	4	0.190	time	
+H. zea	CNVcaller	genotyping (crosstrio-9 + moth)	per moth	4	0.2663	4	0.192	time	
+H. zea	CNVcaller	genotyping (crosstrio-9 + moth)	per moth	5	0.2610	4	0.191	time	
+H. zea	CNVcaller	genotyping (crosstrio-9 + moth)	per moth	6	0.2351	4	0.190	time	
+H. zea	CNVcaller	genotyping (crosstrio-9 + moth)	per moth	7	0.2716	4	0.192	time	
+H. zea	CNVcaller	genotyping (crosstrio-9 + moth)	per moth	8	0.2656	4	0.190	time	
+H. zea	CNVcaller	genotyping (crosstrio-9 + moth)	per moth	9	0.2563	4	0.190	time	
+H. zea	CNVcaller	genotyping (crosstrio-9 + moth)	per moth	10	0.2221	4	0.191	time	
+H. zea	CNVcaller	genotyping (crosstrio-9 + moth)	per moth	11	0.2577	4	0.191	time	
+H. zea	CNVcaller	genotyping (crosstrio-9 + moth)	per moth	12	0.2649	4	0.191	time	
+Human	CNVcaller	read-depth processing	per person	1	0.7123	32	3.517	time	
+Human	CNVcaller	read-depth processing	per person	2	0.9381	32	3.518	time	
+Human	CNVcaller	read-depth processing	per person	3	0.7402	32	3.518	time	
+Human	CNVcaller	read-depth processing	per person	4	0.7778	32	3.519	time	
+Human	CNVcaller	read-depth processing	per person	5	0.7602	32	3.518	time	
+Human	CNVcaller	read-depth processing	per person	6	0.7548	32	3.518	time	
+Human	CNVcaller	read-depth processing	per person	7	0.8023	32	3.518	time	
+Human	CNVcaller	read-depth processing	per person	8	0.7815	32	3.518	time	
+Human	CNVcaller	read-depth processing	per person	9	0.7428	32	3.517	time	
+Human	CNVcaller	read-depth processing	per person	10	0.7915	32	3.517	time	
+Human	CNVcaller	read-depth processing	per person	11	1.0242	32	3.517	time	
+Human	CNVcaller	read-depth processing	per person	12	0.7750	32	3.518	time	
+Human	CNVcaller	CNV-region discovery (crosstrio-9 + person)	per person	1	0.0509	2	2.935	time	
+Human	CNVcaller	CNV-region discovery (crosstrio-9 + person)	per person	2	0.1090	2	2.934	time	
+Human	CNVcaller	CNV-region discovery (crosstrio-9 + person)	per person	3	0.0977	2	2.935	time	
+Human	CNVcaller	CNV-region discovery (crosstrio-9 + person)	per person	4	0.0996	2	2.935	time	
+Human	CNVcaller	CNV-region discovery (crosstrio-9 + person)	per person	5	0.0992	2	2.936	time	
+Human	CNVcaller	CNV-region discovery (crosstrio-9 + person)	per person	6	0.0888	2	2.936	time	
+Human	CNVcaller	CNV-region discovery (crosstrio-9 + person)	per person	7	0.0947	2	2.935	time	
+Human	CNVcaller	CNV-region discovery (crosstrio-9 + person)	per person	8	0.0950	2	2.936	time	
+Human	CNVcaller	CNV-region discovery (crosstrio-9 + person)	per person	9	0.0946	2	2.934	time	
+Human	CNVcaller	CNV-region discovery (crosstrio-9 + person)	per person	10	0.0948	2	2.937	time	
+Human	CNVcaller	CNV-region discovery (crosstrio-9 + person)	per person	11	0.0941	2	2.936	time	
+Human	CNVcaller	CNV-region discovery (crosstrio-9 + person)	per person	12	0.0887	2	2.938	time	
+Human	CNVcaller	genotyping (crosstrio-9 + person)	per person	1	0.2085	4	0.167	time	
+Human	CNVcaller	genotyping (crosstrio-9 + person)	per person	2	0.1802	4	0.168	time	
+Human	CNVcaller	genotyping (crosstrio-9 + person)	per person	3	0.1873	4	0.169	time	
+Human	CNVcaller	genotyping (crosstrio-9 + person)	per person	4	0.0872	4	0.170	time	
+Human	CNVcaller	genotyping (crosstrio-9 + person)	per person	5	0.0865	4	0.168	time	
+Human	CNVcaller	genotyping (crosstrio-9 + person)	per person	6	0.0868	4	0.169	time	
+Human	CNVcaller	genotyping (crosstrio-9 + person)	per person	7	0.0815	4	0.170	time	
+Human	CNVcaller	genotyping (crosstrio-9 + person)	per person	8	0.0792	4	0.169	time	
+Human	CNVcaller	genotyping (crosstrio-9 + person)	per person	9	0.0777	4	0.167	time	
+Human	CNVcaller	genotyping (crosstrio-9 + person)	per person	10	0.2095	4	0.169	time	
+Human	CNVcaller	genotyping (crosstrio-9 + person)	per person	11	0.1866	4	0.170	time	
+Human	CNVcaller	genotyping (crosstrio-9 + person)	per person	12	0.1852	4	0.169	time	
+H. zea	GATK-gCNV	read counts (1 kb bins)	per moth	0					run under a collaborator's account; not recorded
+H. zea	GATK-gCNV	contig ploidy, COHORT	per background model	1	0.0906	16	1.720	sacct	
+H. zea	GATK-gCNV	contig ploidy, COHORT	per background model	2	0.0936	16	2.226	sacct	
+H. zea	GATK-gCNV	contig ploidy, COHORT	per background model	3	0.0867	16	2.217	sacct	
+H. zea	GATK-gCNV	contig ploidy, COHORT	per background model	4	0.0422	16	1.720	sacct	
+H. zea	GATK-gCNV	model training, COHORT (whole genome)	per background model	1	7.1744	8	9.161	sacct	
+H. zea	GATK-gCNV	model training, COHORT (whole genome)	per background model	2	15.6753	8	10.936	sacct	
+H. zea	GATK-gCNV	model training, COHORT (whole genome)	per background model	3	7.3342	8	8.997	sacct	
+H. zea	GATK-gCNV	model training, COHORT (whole genome)	per background model	4	7.6656	8	9.496	sacct	
+H. zea	GATK-gCNV	contig ploidy + CASE calling	per moth	1	0.6503	8		log	sequential workers; peak memory of the worker jobs, max 10.0 GB
+H. zea	GATK-gCNV	contig ploidy + CASE calling	per moth	2	0.5758	8		log	sequential workers; peak memory of the worker jobs, max 10.0 GB
+H. zea	GATK-gCNV	contig ploidy + CASE calling	per moth	3	0.5617	8		log	sequential workers; peak memory of the worker jobs, max 10.0 GB
+H. zea	GATK-gCNV	contig ploidy + CASE calling	per moth	4	0.5894	8		log	sequential workers; peak memory of the worker jobs, max 10.0 GB
+H. zea	GATK-gCNV	contig ploidy + CASE calling	per moth	5	0.5953	8		log	sequential workers; peak memory of the worker jobs, max 10.0 GB
+H. zea	GATK-gCNV	contig ploidy + CASE calling	per moth	6	0.5717	8		log	sequential workers; peak memory of the worker jobs, max 10.0 GB
+H. zea	GATK-gCNV	contig ploidy + CASE calling	per moth	7	0.6344	8		log	sequential workers; peak memory of the worker jobs, max 10.0 GB
+H. zea	GATK-gCNV	contig ploidy + CASE calling	per moth	8	0.5944	8		log	sequential workers; peak memory of the worker jobs, max 10.0 GB
+H. zea	GATK-gCNV	contig ploidy + CASE calling	per moth	9	0.5806	8		log	sequential workers; peak memory of the worker jobs, max 10.0 GB
+H. zea	GATK-gCNV	contig ploidy + CASE calling	per moth	10	0.5842	8		log	sequential workers; peak memory of the worker jobs, max 10.0 GB
+H. zea	GATK-gCNV	contig ploidy + CASE calling	per moth	11	0.5936	8		log	sequential workers; peak memory of the worker jobs, max 10.0 GB
+H. zea	GATK-gCNV	contig ploidy + CASE calling	per moth	12	0.5631	8		log	sequential workers; peak memory of the worker jobs, max 10.0 GB
+H. zea	GATK-gCNV	postprocess calls	per moth	1	0.0419	8		log	
+H. zea	GATK-gCNV	postprocess calls	per moth	2	0.0261	8		log	
+H. zea	GATK-gCNV	postprocess calls	per moth	3	0.0269	8		log	
+H. zea	GATK-gCNV	postprocess calls	per moth	4	0.0275	8		log	
+H. zea	GATK-gCNV	postprocess calls	per moth	5	0.0269	8		log	
+H. zea	GATK-gCNV	postprocess calls	per moth	6	0.0278	8		log	
+H. zea	GATK-gCNV	postprocess calls	per moth	7	0.0328	8		log	
+H. zea	GATK-gCNV	postprocess calls	per moth	8	0.0300	8		log	
+H. zea	GATK-gCNV	postprocess calls	per moth	9	0.0919	8		log	
+H. zea	GATK-gCNV	postprocess calls	per moth	10	0.0308	8		log	
+H. zea	GATK-gCNV	postprocess calls	per moth	11	0.0325	8		log	
+H. zea	GATK-gCNV	postprocess calls	per moth	12	0.0322	8		log	
+Human	GATK-gCNV	read counts (1 kb bins)	per person	1	1.1239	4	10.231	sacct	
+Human	GATK-gCNV	read counts (1 kb bins)	per person	2	1.3561	4	32.001	sacct	
+Human	GATK-gCNV	read counts (1 kb bins)	per person	3	0.9364	4	26.846	sacct	
+Human	GATK-gCNV	read counts (1 kb bins)	per person	4	1.3725	4	10.525	sacct	
+Human	GATK-gCNV	read counts (1 kb bins)	per person	5	1.4950	4	32.001	sacct	
+Human	GATK-gCNV	read counts (1 kb bins)	per person	6	2.2653	4	32.000	sacct	
+Human	GATK-gCNV	read counts (1 kb bins)	per person	7	2.3892	4	32.001	sacct	
+Human	GATK-gCNV	read counts (1 kb bins)	per person	8	0.6031	4	9.697	sacct	
+Human	GATK-gCNV	read counts (1 kb bins)	per person	9	2.3681	4	32.000	sacct	
+Human	GATK-gCNV	read counts (1 kb bins)	per person	10	0.3206	4	11.852	sacct	
+Human	GATK-gCNV	read counts (1 kb bins)	per person	11	0.6594	4	32.001	sacct	
+Human	GATK-gCNV	read counts (1 kb bins)	per person	12	1.1731	4	10.650	sacct	
+Human	GATK-gCNV	contig ploidy, COHORT	per background model	1	0.1450	8	4.353	sacct	
+Human	GATK-gCNV	contig ploidy, COHORT	per background model	2	0.1331	8	5.241	sacct	
+Human	GATK-gCNV	contig ploidy, COHORT	per background model	3	0.0783	8	4.644	sacct	
+Human	GATK-gCNV	contig ploidy, COHORT	per background model	4	0.1386	8	5.302	sacct	
+Human	GATK-gCNV	model training, COHORT, summed over shards	per background model	1	84.3542	8		sacct	30 interval shards per model run in parallel; longest shard 4.52 h; peak memory over the step's 120 jobs: median 7.525 GB, max 8.948 GB
+Human	GATK-gCNV	model training, COHORT, summed over shards	per background model	2	91.5858	8		sacct	30 interval shards per model run in parallel; longest shard 4.52 h; peak memory over the step's 120 jobs: median 7.525 GB, max 8.948 GB
+Human	GATK-gCNV	model training, COHORT, summed over shards	per background model	3	71.6647	8		sacct	30 interval shards per model run in parallel; longest shard 4.52 h; peak memory over the step's 120 jobs: median 7.525 GB, max 8.948 GB
+Human	GATK-gCNV	model training, COHORT, summed over shards	per background model	4	77.8103	8		sacct	30 interval shards per model run in parallel; longest shard 4.52 h; peak memory over the step's 120 jobs: median 7.525 GB, max 8.948 GB
+Human	GATK-gCNV	CASE calling, summed over shards	per background model	1	9.6803	8		sacct	30 interval shards per model run in parallel; longest shard 0.60 h; a few case shards ran in a sequential worker and are not counted; peak memory over the step's 114 jobs: median 3.180 GB, max 4.044 GB
+Human	GATK-gCNV	CASE calling, summed over shards	per background model	2	10.8283	8		sacct	30 interval shards per model run in parallel; longest shard 0.60 h; a few case shards ran in a sequential worker and are not counted; peak memory over the step's 114 jobs: median 3.180 GB, max 4.044 GB
+Human	GATK-gCNV	CASE calling, summed over shards	per background model	3	10.6928	8		sacct	30 interval shards per model run in parallel; longest shard 0.60 h; a few case shards ran in a sequential worker and are not counted; peak memory over the step's 114 jobs: median 3.180 GB, max 4.044 GB
+Human	GATK-gCNV	CASE calling, summed over shards	per background model	4	9.6194	8		sacct	30 interval shards per model run in parallel; longest shard 0.60 h; a few case shards ran in a sequential worker and are not counted; peak memory over the step's 114 jobs: median 3.180 GB, max 4.044 GB
+Human	GATK-gCNV	postprocess calls	per person	1	0.0861	2		log+sacct	
+Human	GATK-gCNV	postprocess calls	per person	2	0.0928	2		log+sacct	
+Human	GATK-gCNV	postprocess calls	per person	3	0.0867	2		log+sacct	
+Human	GATK-gCNV	postprocess calls	per person	4	0.0878	2		log+sacct	
+Human	GATK-gCNV	postprocess calls	per person	5	0.0917	2		log+sacct	
+Human	GATK-gCNV	postprocess calls	per person	6	0.0828	2		log+sacct	
+Human	GATK-gCNV	postprocess calls	per person	7	0.0969	2		log+sacct	
+Human	GATK-gCNV	postprocess calls	per person	8	0.0942	2		log+sacct	
+Human	GATK-gCNV	postprocess calls	per person	9	0.0914	2		log+sacct	
+Human	GATK-gCNV	postprocess calls	per person	10	0.1294	2		log+sacct	
+Human	GATK-gCNV	postprocess calls	per person	11	0.1317	2		log+sacct	
+Human	GATK-gCNV	postprocess calls	per person	12	0.1364	2		log+sacct	
+H. zea	CNVkit	coverage, 5 kb bins (target + antitarget)	per moth	1	0.0106	8		log	12 moths in one step; mean per moth
+H. zea	CNVkit	reference + fix, segment, call, export	per individual	1	0.0120	8	48.615	log	12 individuals in one job for both species; mean per individual, peak memory is the job's
+Human	CNVkit	reference + fix, segment, call, export	per individual	1	0.0378	8	48.615	log	12 individuals in one job for both species; mean per individual, peak memory is the job's
+Human	CNVkit	coverage (cnvkit batch, reused by the matched protocol)	per person	1	0.0936	16	0.987	time	
+Human	CNVkit	coverage (cnvkit batch, reused by the matched protocol)	per person	2	0.1069	16	1.126	time	
+Human	CNVkit	coverage (cnvkit batch, reused by the matched protocol)	per person	3	1.0097	16	0.907	time	
+Human	CNVkit	coverage (cnvkit batch, reused by the matched protocol)	per person	4	0.1476	16	1.094	time	
+Human	CNVkit	coverage (cnvkit batch, reused by the matched protocol)	per person	5	0.1235	16	1.173	time	
+Human	CNVkit	coverage (cnvkit batch, reused by the matched protocol)	per person	6	0.1033	16	0.905	time	
+Human	CNVkit	coverage (cnvkit batch, reused by the matched protocol)	per person	7	0.4569	16	0.891	time	
+Human	CNVkit	coverage (cnvkit batch, reused by the matched protocol)	per person	8	0.1358	16	0.894	time	
+Human	CNVkit	coverage (cnvkit batch, reused by the matched protocol)	per person	9	0.4477	16	1.051	time	
+Human	CNVkit	coverage (cnvkit batch, reused by the matched protocol)	per person	10	1.2783	16	1.152	time	
+Human	CNVkit	coverage (cnvkit batch, reused by the matched protocol)	per person	11	0.0776	16	1.187	time	
+Human	CNVkit	coverage (cnvkit batch, reused by the matched protocol)	per person	12	0.8684	16	0.893	time	
+Monitoring	CNVcaller	read-depth processing	per moth	1	0.0332		0.495	time	
+Monitoring	CNVcaller	read-depth processing	per moth	2	0.0239		0.497	time	
+Monitoring	CNVcaller	read-depth processing	per moth	3	0.0310		0.497	time	
+Monitoring	CNVcaller	read-depth processing	per moth	4	0.0301		0.498	time	
+Monitoring	CNVcaller	read-depth processing	per moth	5	0.0235		0.499	time	
+Monitoring	CNVcaller	read-depth processing	per moth	6	0.0295		0.496	time	
+Monitoring	CNVcaller	read-depth processing	per moth	7	0.0236		0.497	time	
+Monitoring	CNVcaller	read-depth processing	per moth	8	0.0365		0.494	time	
+Monitoring	CNVcaller	read-depth processing	per moth	9	0.0330		0.495	time	
+Monitoring	CNVcaller	read-depth processing	per moth	10	0.0316		0.497	time	
+Monitoring	CNVcaller	read-depth processing	per moth	11	0.0215		0.498	time	
+Monitoring	CNVcaller	read-depth processing	per moth	12	0.0201		0.498	time	
+Monitoring	CNVcaller	read-depth processing	per moth	13	0.0339		0.495	time	
+Monitoring	CNVcaller	read-depth processing	per moth	14	0.0359		0.494	time	
+Monitoring	CNVcaller	read-depth processing	per moth	15	0.0237		0.497	time	
+Monitoring	CNVcaller	read-depth processing	per moth	16	0.0313		0.496	time	
+Monitoring	CNVcaller	read-depth processing	per moth	17	0.0303		0.496	time	
+Monitoring	CNVcaller	read-depth processing	per moth	18	0.0232		0.500	time	
+Monitoring	CNVcaller	read-depth processing	per moth	19	0.0323		0.498	time	
+Monitoring	CNVcaller	read-depth processing	per moth	20	0.0328		0.496	time	
+Monitoring	CNVcaller	read-depth processing	per moth	21	0.0236		0.498	time	
+Monitoring	CNVcaller	read-depth processing	per moth	22	0.0303		0.496	time	
+Monitoring	CNVcaller	read-depth processing	per moth	23	0.0254		0.497	time	
+Monitoring	CNVcaller	read-depth processing	per moth	24	0.0238		0.499	time	
+Monitoring	CNVcaller	read-depth processing	per moth	25	0.0260		0.497	time	
+Monitoring	CNVcaller	read-depth processing	per moth	26	0.0312		0.496	time	
+Monitoring	CNVcaller	read-depth processing	per moth	27	0.0336		0.495	time	
+Monitoring	CNVcaller	read-depth processing	per moth	28	0.0317		0.496	time	
+Monitoring	CNVcaller	read-depth processing	per moth	29	0.0278		0.497	time	
+Monitoring	CNVcaller	read-depth processing	per moth	30	0.0332		0.497	time	
+Monitoring	CNVcaller	read-depth processing	per moth	31	0.0245		0.498	time	
+Monitoring	CNVcaller	read-depth processing	per moth	32	0.0311		0.496	time	
+Monitoring	CNVcaller	read-depth processing	per moth	33	0.0235		0.497	time	
+Monitoring	CNVcaller	read-depth processing	per moth	34	0.0330		0.497	time	
+Monitoring	CNVcaller	read-depth processing	per moth	35	0.0242		0.499	time	
+Monitoring	CNVcaller	CNV-region discovery (time-series and first constant-size panels)	per panel	1	0.0168		0.558	time	
+Monitoring	CNVcaller	CNV-region discovery (time-series and first constant-size panels)	per panel	2	0.0082		0.536	time	
+Monitoring	CNVcaller	CNV-region discovery (time-series and first constant-size panels)	per panel	3	0.0295		0.627	time	
+Monitoring	CNVcaller	CNV-region discovery (time-series and first constant-size panels)	per panel	4	0.0131		0.587	time	
+Monitoring	CNVcaller	CNV-region discovery (time-series and first constant-size panels)	per panel	5	0.0129		0.592	time	
+Monitoring	CNVcaller	CNV-region discovery (time-series and first constant-size panels)	per panel	6	0.0132		0.587	time	
+Monitoring	CNVcaller	CNV-region discovery (time-series and first constant-size panels)	per panel	7	0.0146		0.535	time	
+Monitoring	CNVcaller	CNV-region discovery (time-series and first constant-size panels)	per panel	8	0.0085		0.530	time	
+Monitoring	CNVcaller	CNV-region discovery (time-series and first constant-size panels)	per panel	9	0.0081		0.534	time	
+Monitoring	CNVcaller	CNV-region discovery (time-series and first constant-size panels)	per panel	10	0.0132		0.524	time	
+Monitoring	CNVcaller	CNV-region discovery (time-series and first constant-size panels)	per panel	11	0.0144		0.539	time	
+Monitoring	CNVcaller	CNV-region discovery (time-series and first constant-size panels)	per panel	12	0.0140		0.534	time	
+Monitoring	CNVcaller	CNV-region discovery (time-series and first constant-size panels)	per panel	13	0.0146		0.543	time	
+Monitoring	CNVcaller	CNV-region discovery (time-series and first constant-size panels)	per panel	14	0.0131		0.520	time	
+Monitoring	CNVcaller	CNV-region discovery (time-series and first constant-size panels)	per panel	15	0.0138		0.534	time	
+Monitoring	CNVcaller	CNV-region discovery (time-series and first constant-size panels)	per panel	16	0.0143		0.532	time	
+Monitoring	CNVcaller	CNV-region discovery (time-series and first constant-size panels)	per panel	17	0.0140		0.537	time	
+Monitoring	CNVcaller	CNV-region discovery (time-series and first constant-size panels)	per panel	18	0.0138		0.522	time	
+Monitoring	CNVcaller	CNV-region discovery (time-series and first constant-size panels)	per panel	19	0.0151		0.529	time	
+Monitoring	CNVcaller	CNV-region discovery (time-series and first constant-size panels)	per panel	20	0.0134		0.528	time	
+Monitoring	CNVcaller	CNV-region discovery (time-series and first constant-size panels)	per panel	21	0.0124		0.512	time	
+Monitoring	CNVcaller	CNV-region discovery (time-series and first constant-size panels)	per panel	22	0.0139		0.535	time	
+Monitoring	CNVcaller	CNV-region discovery (time-series and first constant-size panels)	per panel	23	0.0150		0.537	time	
+Monitoring	CNVcaller	CNV-region discovery (time-series and first constant-size panels)	per panel	24	0.0137		0.522	time	
+Monitoring	CNVcaller	genotyping (time-series and first constant-size panels)	per panel	1	0.1837		0.182	time	
+Monitoring	CNVcaller	genotyping (time-series and first constant-size panels)	per panel	2	0.1903		0.173	time	
+Monitoring	CNVcaller	genotyping (time-series and first constant-size panels)	per panel	3	0.1809		0.255	time	
+Monitoring	CNVcaller	genotyping (time-series and first constant-size panels)	per panel	4	0.1376		0.224	time	
+Monitoring	CNVcaller	genotyping (time-series and first constant-size panels)	per panel	5	0.1694		0.206	time	
+Monitoring	CNVcaller	genotyping (time-series and first constant-size panels)	per panel	6	0.1462		0.219	time	
+Monitoring	CNVcaller	genotyping (time-series and first constant-size panels)	per panel	7	0.1704		0.184	time	
+Monitoring	CNVcaller	genotyping (time-series and first constant-size panels)	per panel	8	0.1666		0.187	time	
+Monitoring	CNVcaller	genotyping (time-series and first constant-size panels)	per panel	9	0.1424		0.169	time	
+Monitoring	CNVcaller	genotyping (time-series and first constant-size panels)	per panel	10	0.1454		0.174	time	
+Monitoring	CNVcaller	genotyping (time-series and first constant-size panels)	per panel	11	0.1834		0.172	time	
+Monitoring	CNVcaller	genotyping (time-series and first constant-size panels)	per panel	12	0.1757		0.173	time	
+Monitoring	CNVcaller	genotyping (time-series and first constant-size panels)	per panel	13	0.1672		0.173	time	
+Monitoring	CNVcaller	genotyping (time-series and first constant-size panels)	per panel	14	0.1858		0.177	time	
+Monitoring	CNVcaller	genotyping (time-series and first constant-size panels)	per panel	15	0.1740		0.174	time	
+Monitoring	CNVcaller	genotyping (time-series and first constant-size panels)	per panel	16	0.1871		0.174	time	
+Monitoring	CNVcaller	genotyping (time-series and first constant-size panels)	per panel	17	0.1488		0.170	time	
+Monitoring	CNVcaller	genotyping (time-series and first constant-size panels)	per panel	18	0.1894		0.173	time	
+Monitoring	CNVcaller	genotyping (time-series and first constant-size panels)	per panel	19	0.1850		0.173	time	
+Monitoring	CNVcaller	genotyping (time-series and first constant-size panels)	per panel	20	0.1743		0.174	time	
+Monitoring	CNVcaller	genotyping (time-series and first constant-size panels)	per panel	21	0.1983		0.177	time	
+Monitoring	CNVcaller	genotyping (time-series and first constant-size panels)	per panel	22	0.1849		0.173	time	
+Monitoring	CNVcaller	genotyping (time-series and first constant-size panels)	per panel	23	0.1766		0.172	time	
+Monitoring	CNVcaller	genotyping (time-series and first constant-size panels)	per panel	24	0.1979		0.175	time	
+Monitoring	GATK-gCNV	model training, COHORT (chromosome 7, max CN 10)	per panel	1	0.9728	8		log	peak memory over the step's 3 jobs: median 3.930 GB, max 4.524 GB
+Monitoring	GATK-gCNV	model training, COHORT (chromosome 7, max CN 10)	per panel	2	0.8672	8		log	peak memory over the step's 3 jobs: median 3.930 GB, max 4.524 GB
+Monitoring	GATK-gCNV	model training, COHORT (chromosome 7, max CN 10)	per panel	3	0.8528	8		log	peak memory over the step's 3 jobs: median 3.930 GB, max 4.524 GB
+Monitoring	GATK-gCNV	model training, COHORT (chromosome 7, max CN 10)	per panel	4	0.7519	8		log	peak memory over the step's 3 jobs: median 3.930 GB, max 4.524 GB
+Monitoring	GATK-gCNV	model training, COHORT (chromosome 7, max CN 10)	per panel	5	0.7856	8		log	peak memory over the step's 3 jobs: median 3.930 GB, max 4.524 GB
+Monitoring	GATK-gCNV	model training, COHORT (chromosome 7, max CN 10)	per panel	6	1.4161	8		log	peak memory over the step's 3 jobs: median 3.930 GB, max 4.524 GB
+Monitoring	GATK-gCNV	model training, COHORT (chromosome 7, max CN 10)	per panel	7	0.8389	8		log	peak memory over the step's 3 jobs: median 3.930 GB, max 4.524 GB
+Monitoring	GATK-gCNV	model training, COHORT (chromosome 7, max CN 10)	per panel	8	1.1117	8		log	peak memory over the step's 3 jobs: median 3.930 GB, max 4.524 GB
+Monitoring	GATK-gCNV	model training, COHORT (chromosome 7, max CN 10)	per panel	9	0.9444	8		log	peak memory over the step's 3 jobs: median 3.930 GB, max 4.524 GB
+Monitoring	GATK-gCNV	model training, COHORT (chromosome 7, max CN 10)	per panel	10	0.9017	8		log	peak memory over the step's 3 jobs: median 3.930 GB, max 4.524 GB
+Monitoring	GATK-gCNV	model training, COHORT (chromosome 7, max CN 10)	per panel	11	0.9569	8		log	peak memory over the step's 3 jobs: median 3.930 GB, max 4.524 GB
+Monitoring	GATK-gCNV	model training, COHORT (chromosome 7, max CN 10)	per panel	12	1.6033	8		log	peak memory over the step's 3 jobs: median 3.930 GB, max 4.524 GB
+Monitoring	GATK-gCNV	model training, COHORT (chromosome 7, max CN 10)	per panel	13	0.9392	8		log	peak memory over the step's 3 jobs: median 3.930 GB, max 4.524 GB
+Monitoring	GATK-gCNV	model training, COHORT (chromosome 7, max CN 10)	per panel	14	0.9642	8		log	peak memory over the step's 3 jobs: median 3.930 GB, max 4.524 GB
+Monitoring	GATK-gCNV	model training, COHORT (chromosome 7, max CN 10)	per panel	15	0.9142	8		log	peak memory over the step's 3 jobs: median 3.930 GB, max 4.524 GB
+Monitoring	GATK-gCNV	model training, COHORT (chromosome 7, max CN 10)	per panel	16	0.2417	8		log	peak memory over the step's 3 jobs: median 3.930 GB, max 4.524 GB
+Monitoring	GATK-gCNV	model training, COHORT (chromosome 7, max CN 10)	per panel	17	0.1942	8		log	peak memory over the step's 3 jobs: median 3.930 GB, max 4.524 GB
+Monitoring	GATK-gCNV	model training, COHORT (chromosome 7, max CN 10)	per panel	18	0.4489	8		log	peak memory over the step's 3 jobs: median 3.930 GB, max 4.524 GB
+Monitoring	GATK-gCNV	model training, COHORT (chromosome 7, max CN 10)	per panel	19	0.3397	8		log	peak memory over the step's 3 jobs: median 3.930 GB, max 4.524 GB
+Monitoring	GATK-gCNV	model training, COHORT (chromosome 7, max CN 10)	per panel	20	0.1919	8		log	peak memory over the step's 3 jobs: median 3.930 GB, max 4.524 GB
+Monitoring	GATK-gCNV	model training, COHORT (chromosome 7, max CN 10)	per panel	21	0.3094	8		log	peak memory over the step's 3 jobs: median 3.930 GB, max 4.524 GB
+Monitoring	Delly2	chr7 realignment + delly call + delly cnv, all 47 moths	per run	1	0.2883	8	4.173	sacct	one job for 47 moths
+Monitoring	Delly2	delly merge, genotyping (delly cnv), classify; all panels	per run	1	0.0372	8	3.845	sacct	
+Monitoring	Delly2	delly merge, genotyping (delly cnv), classify; all panels	per run	2	0.0236	8	3.846	sacct	
+Monitoring	Delly2	delly merge, genotyping (delly cnv), classify; all panels	per run	3	0.0267	8	1.013	sacct	
+Monitoring	Delly2	delly merge, genotyping (delly cnv), classify; all panels	per run	4	0.0253	8	3.669	sacct	
+H. zea	Delly2	BWA-MEM realignment (SpeedSeq), published background moths	per moth	1	0.4278	8	14.620	sacct	
+H. zea	Delly2	BWA-MEM realignment (SpeedSeq), published background moths	per moth	2	0.4506	8	16.218	sacct	
+H. zea	Delly2	BWA-MEM realignment (SpeedSeq), published background moths	per moth	3	0.5189	8	19.050	sacct	
+H. zea	Delly2	BWA-MEM realignment (SpeedSeq), published background moths	per moth	4	0.4369	8	16.317	sacct	
+H. zea	Delly2	BWA-MEM realignment (SpeedSeq), published background moths	per moth	5	0.4442	8	17.752	sacct	
+H. zea	Delly2	BWA-MEM realignment (SpeedSeq), published background moths	per moth	6	0.4358	8	16.743	sacct	
+H. zea	Delly2	BWA-MEM realignment (SpeedSeq), published background moths	per moth	7	0.4025	8	15.770	sacct	
+H. zea	Delly2	BWA-MEM realignment (SpeedSeq), published background moths	per moth	8	0.4047	8	15.995	sacct	
+H. zea	Delly2	BWA-MEM realignment (SpeedSeq), published background moths	per moth	9	0.7156	8	18.149	sacct	
+H. zea	Delly2	BWA-MEM realignment (SpeedSeq), published background moths	per moth	10	0.8317	8	20.529	sacct	
+H. zea	Delly2	BWA-MEM realignment (SpeedSeq), published background moths	per moth	11	0.8903	8	22.766	sacct	
+H. zea	Delly2	BWA-MEM realignment (SpeedSeq), published background moths	per moth	12	0.7092	8	19.862	sacct	
+H. zea	Delly2	BWA-MEM realignment (SpeedSeq), published background moths	per moth	13	0.7031	8	19.419	sacct	
+H. zea	Delly2	BWA-MEM realignment (SpeedSeq), published background moths	per moth	14	0.3161	8	14.044	sacct	
+H. zea	Delly2	BWA-MEM realignment (SpeedSeq), published background moths	per moth	15	0.3178	8	14.843	sacct	
+H. zea	Delly2	BWA-MEM realignment (SpeedSeq), published background moths	per moth	16	0.5458	8	18.671	sacct	
+H. zea	Delly2	BWA-MEM realignment (SpeedSeq), published background moths	per moth	17	0.3150	8	14.692	sacct	
+H. zea	Delly2	BWA-MEM realignment (SpeedSeq), published background moths	per moth	18	0.3108	8	14.438	sacct	
+H. zea	Delly2	BWA-MEM realignment (SpeedSeq), published background moths	per moth	19	0.4300	8	14.846	sacct	
+H. zea	Delly2	BWA-MEM realignment (SpeedSeq), published background moths	per moth	20	1.3069	8	32.001	sacct	
+H. zea	Delly2	BWA-MEM realignment (SpeedSeq), published background moths	per moth	21	1.1519	8	30.319	sacct	
+H. zea	Delly2	BWA-MEM realignment (SpeedSeq), published background moths	per moth	22	1.7594	8	32.001	sacct	
+H. zea	Delly2	BWA-MEM realignment (SpeedSeq), published background moths	per moth	23	1.8722	8	32.001	sacct	
+H. zea	Delly2	BWA-MEM realignment (SpeedSeq), published background moths	per moth	24	1.6761	8	32.001	sacct	
+H. zea	Delly2	BWA-MEM realignment (SpeedSeq), published background moths	per moth	25	1.5794	8	31.999	sacct	
+H. zea	Delly2	delly call (discovery), published background moths	per moth	1	0.3253	1	2.744	sacct	
+H. zea	Delly2	delly call (discovery), published background moths	per moth	2	0.3400	1	2.772	sacct	
+H. zea	Delly2	delly call (discovery), published background moths	per moth	3	0.2928	1	2.541	sacct	
+H. zea	Delly2	delly call (discovery), published background moths	per moth	4	0.3508	1	2.822	sacct	
+H. zea	Delly2	delly call (discovery), published background moths	per moth	5	0.3700	1	2.905	sacct	
+H. zea	Delly2	delly call (discovery), published background moths	per moth	6	0.3422	1	2.804	sacct	
+H. zea	Delly2	delly call (discovery), published background moths	per moth	7	0.2375	1	3.034	sacct	
+H. zea	Delly2	delly call (discovery), published background moths	per moth	8	0.3606	1	3.584	sacct	
+H. zea	Delly2	delly call (discovery), published background moths	per moth	9	0.1278	1	2.215	sacct	
+H. zea	Delly2	delly call (discovery), published background moths	per moth	10	0.1456	1	2.287	sacct	
+H. zea	Delly2	delly call (discovery), published background moths	per moth	11	0.3247	1	2.718	sacct	
+H. zea	Delly2	delly call (discovery), published background moths	per moth	12	0.2169	1	2.264	sacct	
+H. zea	Delly2	delly call (discovery), published background moths	per moth	13	0.1678	1	2.652	sacct	
+H. zea	Delly2	delly call (discovery), published background moths	per moth	14	0.2614	1	2.644	sacct	
+H. zea	Delly2	delly call (discovery), published background moths	per moth	15	0.2906	1	2.896	sacct	
+H. zea	Delly2	delly call (discovery), published background moths	per moth	16	0.2161	1	3.199	sacct	
+H. zea	Delly2	delly call (discovery), published background moths	per moth	17	0.2314	1	2.979	sacct	
+H. zea	Delly2	delly call (discovery), published background moths	per moth	18	0.3961	1	3.274	sacct	
+H. zea	Delly2	delly call (discovery), published background moths	per moth	19	0.2075	1	2.269	sacct	
+H. zea	Delly2	delly call (discovery), published background moths	per moth	20	0.1978	1	4.182	sacct	
+H. zea	Delly2	delly call (discovery), published background moths	per moth	21	0.4950	1	5.044	sacct	
+H. zea	Delly2	delly call (discovery), published background moths	per moth	22	0.4269	1	5.056	sacct	
+H. zea	Delly2	delly call (discovery), published background moths	per moth	23	0.4558	1	4.522	sacct	
+H. zea	Delly2	delly call (discovery), published background moths	per moth	24	0.5156	1	5.073	sacct	
+H. zea	Delly2	delly call (discovery), published background moths	per moth	25	0.2883	1	5.577	sacct	
+Human	Delly2	delly merge, genotyping, germline filter (person + background)	per run	1	1.4806	8	31.999	sacct	
+Human	Delly2	delly merge, genotyping, germline filter (person + background)	per run	2	1.7031	8	31.999	sacct	
+Human	Delly2	delly merge, genotyping, germline filter (person + background)	per run	3	1.4886	8	31.999	sacct	
+Human	Delly2	delly merge, genotyping, germline filter (person + background)	per run	4	1.5586	8	31.999	sacct	
+Human	Delly2	delly merge, genotyping, germline filter (person + background)	per run	5	4.6219	8	32.001	sacct	
+Human	Delly2	delly merge, genotyping, germline filter (person + background)	per run	6	3.6942	8	32.001	sacct	
+Human	Delly2	delly merge, genotyping, germline filter (person + background)	per run	7	2.6103	8	32.000	sacct	
+Human	Delly2	delly merge, genotyping, germline filter (person + background)	per run	8	1.5086	8	31.999	sacct	
+Human	Delly2	delly merge, genotyping, germline filter (person + background)	per run	9	7.4517	8	32.001	sacct	
+Human	Delly2	delly merge, genotyping, germline filter (person + background)	per run	10	1.9106	8	32.000	sacct	
+Human	Delly2	delly merge, genotyping, germline filter (person + background)	per run	11	3.6994	8	32.001	sacct	
+Human	Delly2	delly merge, genotyping, germline filter (person + background)	per run	12	5.8208	8	32.001	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	1	0.0881	8	15.521	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	2	0.2100	8	32.001	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	3	0.2375	8	32.001	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	4	0.2181	8	32.001	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	5	0.0883	8	6.775	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	6	0.0919	8	3.540	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	7	0.2344	8	32.001	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	8	0.0936	8	3.485	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	9	0.3003	8	32.001	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	10	0.0914	8	3.410	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	11	0.0919	8	3.442	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	12	0.7864	8	32.001	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	13	0.7653	8	32.001	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	14	0.2133	8	32.000	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	15	0.7919	8	32.001	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	16	0.6589	8	32.001	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	17	0.3197	8	32.001	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	18	0.6856	8	32.001	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	19	0.9114	8	32.001	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	20	0.5197	8	7.479	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	21	0.5517	8	11.723	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	22	0.5917	8	12.522	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	23	0.2111	8	32.001	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	24	0.9503	8	32.001	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	25	0.3056	8	32.001	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	26	0.3250	8	32.001	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	27	0.9214	8	32.001	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	28	1.2944	8	32.001	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	29	0.3644	8	32.001	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	30	1.3867	8	32.001	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	31	0.3300	8	32.001	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	32	0.3686	8	32.001	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	33	0.3214	8	32.001	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	34	0.6433	8	15.748	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	35	0.8508	8	32.000	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	36	0.4072	8	15.467	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	37	0.2031	8	5.525	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	38	0.0939	8	31.999	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	39	0.9303	8	32.001	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	40	0.8872	8	31.060	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	41	0.4039	8	4.606	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	42	0.6978	8	18.176	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	43	0.6275	8	20.606	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	44	0.7756	8	31.207	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	45	0.7944	8	32.001	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	46	0.0944	8	31.049	sacct	
+H. zea	Delly2	delly merge, genotyping, germline filter (moth + background)	per run	47	0.6881	8	28.121	sacct	
+Human	smoove	smoove call (LUMPY + SVTyper)	per person	1	0.3542	4	16.001	sacct	
+Human	smoove	smoove call (LUMPY + SVTyper)	per person	2	0.4600	4	16.001	sacct	
+Human	smoove	smoove call (LUMPY + SVTyper)	per person	3	0.3975	4	16.001	sacct	
+Human	smoove	smoove call (LUMPY + SVTyper)	per person	4	0.4842	4	16.001	sacct	
+Human	smoove	smoove call (LUMPY + SVTyper)	per person	5	0.3572	4	16.000	sacct	
+Human	smoove	smoove call (LUMPY + SVTyper)	per person	6	0.3769	4	16.001	sacct	
+Human	smoove	smoove call (LUMPY + SVTyper)	per person	7	0.3683	4	16.001	sacct	
+Human	smoove	smoove call (LUMPY + SVTyper)	per person	8	0.4844	4	16.001	sacct	
+Human	smoove	smoove call (LUMPY + SVTyper)	per person	9	0.3250	4	16.002	sacct	
+Human	smoove	smoove call (LUMPY + SVTyper)	per person	10	0.4469	4	16.001	sacct	
+Human	smoove	smoove call (LUMPY + SVTyper)	per person	11	0.5058	4	16.000	sacct	
+Human	smoove	smoove call (LUMPY + SVTyper)	per person	12	0.3464	4	16.001	sacct	
+H. zea	smoove	smoove call (LUMPY + SVTyper)	per moth	1	0.1169	4	6.611	sacct	
+H. zea	smoove	smoove call (LUMPY + SVTyper)	per moth	2	0.0472	4	4.806	sacct	
+H. zea	smoove	smoove call (LUMPY + SVTyper)	per moth	3	0.0694	4	5.049	sacct	
+H. zea	smoove	smoove call (LUMPY + SVTyper)	per moth	4	0.0750	4	5.891	sacct	
+H. zea	smoove	smoove call (LUMPY + SVTyper)	per moth	5	0.0761	4	6.434	sacct	
+H. zea	smoove	smoove call (LUMPY + SVTyper)	per moth	6	0.0753	4	5.304	sacct	
+H. zea	smoove	smoove call (LUMPY + SVTyper)	per moth	7	0.0900	4	5.546	sacct	
+H. zea	smoove	smoove call (LUMPY + SVTyper)	per moth	8	0.0828	4	4.911	sacct	
+H. zea	smoove	smoove call (LUMPY + SVTyper)	per moth	9	0.0892	4	6.660	sacct	
+H. zea	smoove	smoove call (LUMPY + SVTyper)	per moth	10	0.0661	4	5.431	sacct	
+H. zea	smoove	smoove call (LUMPY + SVTyper)	per moth	11	0.1053	4	6.918	sacct	
+H. zea	smoove	smoove call (LUMPY + SVTyper)	per moth	12	0.0603	4	4.470	sacct	
+H. zea	smoove	smoove call (LUMPY + SVTyper)	per moth	13	0.1075	4	3.330	sacct	
+H. zea	smoove	smoove call (LUMPY + SVTyper)	per moth	14	0.1161	4	3.636	sacct	
+H. zea	smoove	smoove call (LUMPY + SVTyper)	per moth	15	0.1283	4	4.157	sacct	
+H. zea	smoove	smoove call (LUMPY + SVTyper)	per moth	16	0.1222	4	3.714	sacct	
+H. zea	smoove	smoove call (LUMPY + SVTyper)	per moth	17	0.1208	4	3.844	sacct	
+H. zea	smoove	smoove call (LUMPY + SVTyper)	per moth	18	0.1197	4	3.753	sacct	
+H. zea	smoove	smoove call (LUMPY + SVTyper)	per moth	19	0.0603	4	3.585	sacct	
+H. zea	smoove	smoove call (LUMPY + SVTyper)	per moth	20	0.0592	4	3.672	sacct	
+H. zea	smoove	smoove call (LUMPY + SVTyper)	per moth	21	0.0258	4	3.533	sacct	
+H. zea	smoove	smoove call (LUMPY + SVTyper)	per moth	22	0.0611	4	3.870	sacct	
+H. zea	smoove	smoove call (LUMPY + SVTyper)	per moth	23	0.0658	4	4.119	sacct	
+H. zea	smoove	smoove call (LUMPY + SVTyper)	per moth	24	0.0578	4	3.846	sacct	
+H. zea	smoove	smoove call (LUMPY + SVTyper)	per moth	25	0.0431	4	3.802	sacct	
+H. zea	smoove	smoove call (LUMPY + SVTyper)	per moth	26	0.0789	4	2.994	sacct	
+H. zea	smoove	smoove call (LUMPY + SVTyper)	per moth	27	0.0814	4	3.216	sacct	
+H. zea	smoove	smoove call (LUMPY + SVTyper)	per moth	28	0.0989	4	3.551	sacct	
+H. zea	smoove	smoove call (LUMPY + SVTyper)	per moth	29	0.0878	4	3.103	sacct	
+H. zea	smoove	smoove call (LUMPY + SVTyper)	per moth	30	0.0419	4	3.081	sacct	
+H. zea	smoove	smoove call (LUMPY + SVTyper)	per moth	31	0.0428	4	3.217	sacct	
+H. zea	smoove	smoove call (LUMPY + SVTyper)	per moth	32	0.0700	4	5.898	sacct	
+H. zea	smoove	smoove call (LUMPY + SVTyper)	per moth	33	0.0689	4	4.739	sacct	
+H. zea	smoove	smoove call (LUMPY + SVTyper)	per moth	34	0.0953	4	5.964	sacct	
+H. zea	smoove	smoove call (LUMPY + SVTyper)	per moth	35	0.0983	4	6.444	sacct	
+H. zea	smoove	smoove call (LUMPY + SVTyper)	per moth	36	0.0878	4	5.950	sacct	
+H. zea	smoove	smoove call (LUMPY + SVTyper)	per moth	37	0.1094	4	5.403	sacct	
+Human	smoove	smoove merge, genotype, paste (person + background)	per run	1	0.4683	10	32.000	sacct	
+Human	smoove	smoove merge, genotype, paste (person + background)	per run	2	0.2119	10	15.704	sacct	
+Human	smoove	smoove merge, genotype, paste (person + background)	per run	3	0.2119	10	16.984	sacct	
+Human	smoove	smoove merge, genotype, paste (person + background)	per run	4	0.2119	10	17.621	sacct	
+Human	smoove	smoove merge, genotype, paste (person + background)	per run	5	0.4664	10	20.266	sacct	
+Human	smoove	smoove merge, genotype, paste (person + background)	per run	6	0.4667	10	21.083	sacct	
+Human	smoove	smoove merge, genotype, paste (person + background)	per run	7	0.1339	10	7.579	sacct	
+Human	smoove	smoove merge, genotype, paste (person + background)	per run	8	0.4094	10	32.000	sacct	
+Human	smoove	smoove merge, genotype, paste (person + background)	per run	9	0.6647	10	32.000	sacct	
+Human	smoove	smoove merge, genotype, paste (person + background)	per run	10	0.3433	10	31.999	sacct	
+Human	smoove	smoove merge, genotype, paste (person + background)	per run	11	0.3417	10	32.000	sacct	
+Human	smoove	smoove merge, genotype, paste (person + background)	per run	12	0.2950	10	32.000	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	1	0.6117	10	23.504	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	2	0.7381	10	32.000	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	3	0.6142	10	30.555	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	4	0.7586	10	32.000	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	5	0.6833	10	32.000	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	6	0.3783	10	5.823	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	7	0.4181	10	31.999	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	8	0.4267	10	6.327	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	9	0.9317	10	32.000	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	10	0.5192	10	12.436	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	11	0.5781	10	18.653	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	12	0.5625	10	18.057	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	13	1.2050	10	31.999	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	14	0.7169	10	32.000	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	15	0.5389	10	32.000	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	16	0.5731	10	32.000	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	17	0.5400	10	32.000	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	18	0.6333	10	32.000	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	19	1.2386	10	32.000	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	20	1.2853	10	32.000	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	21	1.5028	10	32.000	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	22	0.5081	10	32.000	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	23	1.3406	10	32.000	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	24	1.4842	10	32.000	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	25	0.6289	10	31.998	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	26	1.7647	10	32.000	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	27	1.7942	10	32.000	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	28	0.6444	10	31.998	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	29	1.7819	10	32.000	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	30	2.1492	10	32.000	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	31	0.9092	10	17.762	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	32	0.7947	10	10.005	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	33	1.3389	10	32.000	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	34	0.9478	10	20.192	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	35	1.3239	10	32.000	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	36	0.5219	10	5.614	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	37	0.4886	10	5.669	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	38	0.5167	10	6.395	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	39	0.6142	10	31.999	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	40	0.6242	10	32.000	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	41	0.4189	10	30.227	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	42	0.5978	10	31.999	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	43	0.5244	10	18.010	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	44	0.7356	10	5.770	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	45	0.6322	10	31.998	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	46	0.4742	10	8.141	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	47	0.2161	10	31.313	sacct	
+H. zea	smoove	smoove merge, genotype, paste (moth + background)	per run	48	0.2850	10	31.361	sacct	

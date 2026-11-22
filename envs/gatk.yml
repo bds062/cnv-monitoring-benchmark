@@ -1,0 +1,17 @@
+# Python side of GATK-gCNV, from gatkcondaenv.yml of the GATK 4.6.2.0 release (gCNV packages only).
+# The GATK launcher itself is the release zip (data/download.sh tools); after creating the env run
+#   pip install $GATK_DIR/gatkPythonPackageArchive.zip
+name: gatk
+channels: [conda-forge, bioconda]
+dependencies:
+  - python=3.10.13
+  - pip=23.3.1
+  - blas=1.0=mkl
+  - numpy=1.26.2
+  - scipy=1.11.4
+  - pandas=2.1.3
+  - h5py=3.10.0
+  - pymc=5.10.1
+  - pytensor=2.18.3
+  - openjdk=17
+  - samtools=1.22.1

@@ -1,0 +1,15 @@
+# Downloaded inputs (references, reads, truth sets, tools) are fetched by data/download.sh and not tracked;
+# the small tables in data/ are.
+/data/*
+!/data/README.md
+!/data/download.sh
+!/data/*.tsv
+!/data/samples/
+!/data/runtime/
+!/data/wfmash/
+# Outputs of the workflow and analysis scripts
+/results/
+/config.local.sh
+__pycache__/
+*.pyc
+*.log

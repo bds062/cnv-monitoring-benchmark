@@ -1,0 +1,11 @@
+# Delly2 (delly call, delly cnv) and the dicey mappability map for delly cnv (bwa 0.7.19, as in the paper's map).
+# workflow/monitoring/delly_chr7.sh aligns with SpeedSeq's BWA 0.7.10 instead (SPEEDSEQ_BWA), as the paper's run did.
+name: delly2
+channels: [conda-forge, bioconda]
+dependencies:
+  - delly=1.7.2
+  - dicey=0.3.4
+  - bwa=0.7.19
+  - bcftools=1.22
+  - samtools=1.22.1
+  - htslib=1.22.1

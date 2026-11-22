@@ -1,0 +1,47 @@
+# CNVcaller d851794: run from its own directory, and build the duplicated-window record with pandas 2.
+# Apply in the clone with: git apply cnvcaller.patch
+diff -ru a/bin/0.2.Kmer_Link.py b/bin/0.2.Kmer_Link.py
+--- a/bin/0.2.Kmer_Link.py
++++ b/bin/0.2.Kmer_Link.py
+@@ -51,13 +51,12 @@
+     print(f'drop identity lower than 97%, {df.shape[0]} records remained')
+     df['tNewstart'] = df['tStart'].map(lambda x: round(x / stepsize) * stepsize + 1)
+     df['tNewname'] = df['tName'].astype(str) + ':' + df['tNewstart'].astype(str)
+-    df = df.groupby('qName')['qName', 'tNewname'].agg({'qName': np.unique,
+-                                                      'tNewname': lambda x: '\t'.join(x)})
++    # pandas >= 2 rejects the tuple column selection of the original line; same output
++    grouped = df.groupby('qName')['tNewname'].agg(lambda x: '\t'.join(x)).reset_index()
+     with open(outfile, 'w') as f:
+-        for line in df.values:
+-            if len(line[1].split()) > 1:
+-                outline = [str(x) for x in line]
+-                f.write('\t'.join(outline) + '\n')
++        for qname, joined in grouped.values:
++            if len(joined.split('\t')) > 1:
++                f.write(f'{qname}\t{joined}\n')
+ 
+ 
+ if __name__ == '__main__':
+diff -ru a/CNV.Discovery.sh b/CNV.Discovery.sh
+--- a/CNV.Discovery.sh
++++ b/CNV.Discovery.sh
+@@ -1,6 +1,6 @@
+ #!/bin/sh
+ # CNVcaller installation directory
+-export CNVcaller=/stor9000/apps/users/NWSUAF/2015060152/script/CNVcaller/GitHub/04.version
++export CNVcaller=$(cd "$(dirname "$0")" && pwd)
+ echo "CNVcaller install directory $CNVcaller"
+ if [ ! -f "$CNVcaller/bin/2.1.CNVDiscoveryMerge.pl" ]; then echo "You should set CNVcaller installation directory"; exit 1; fi
+ ##############
+diff -ru a/Individual.Process.sh b/Individual.Process.sh
+--- a/Individual.Process.sh
++++ b/Individual.Process.sh
+@@ -2,7 +2,7 @@
+ # Samtools executables must be on your path.
+ which samtools > /dev/null || exit 1
+ # CNVcaller is the installation directory for CNVcaller - it must be an exported environment variable
+-export CNVcaller=`pwd`
++export CNVcaller=$(cd "$(dirname "$0")" && pwd)
+ echo "CNVcaller install directory $CNVcaller"
+ if [ ! -f "$CNVcaller/bin/1.1.CNVprocess.pl" ]; then echo "You should set CNVcaller installation directory"; exit 1; fi
+ ##############

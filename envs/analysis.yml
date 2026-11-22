@@ -1,0 +1,12 @@
+# Tables and figures (analysis/). Versions are those the paper's tables and figures were made with.
+# Figures use Times New Roman if its TTF files are in ~/.fonts (DejaVu Serif otherwise, which changes only the font).
+name: cnvbench-analysis
+channels: [conda-forge, bioconda]
+dependencies:
+  - python=3.13
+  - numpy=2.3.0
+  - scipy=1.17.0
+  - matplotlib=3.10.3
+  - pysam=0.23.3
+  - samtools=1.22.1
+  - bcftools=1.22
